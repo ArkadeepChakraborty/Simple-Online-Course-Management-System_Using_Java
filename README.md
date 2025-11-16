@@ -10,108 +10,85 @@ This repository contains two frontends and one backend:
 
 🛠 Admin Portal
 
-Add / Edit / Delete Courses
+1. Add / Edit / Delete Courses
 
-Dashboard
+2. Dashboard
 
 🎓 Student Portal
 
-Browse all courses
+1. Browse all courses
 
-Search courses
+2. Search courses
 
-View enrolled courses
+3. View enrolled courses
 
-Update profile & password
+4. Update profile & password
 
-Login with JWT
+5. Login with JWT
 
 ⚙ Backend (Spring Boot)
 
-Student APIs
+1. Student APIs
 
-Course APIs
+2. Course APIs
 
-JWT Authentication
+3. JWT Authentication
 
-Password encryption
+4. Password encryption
 
-Search & filter support
+5. Search & filter support
 
 
 🧩 Tech Stack
 Frontend
 
-React.js
+1. React.js
 
-React Router
+2. React Router
 
-Axios
+3. Axios
 
-Tailwind CSS
+4. Tailwind CSS
 
-Backend
+5. Backend
 
-Spring Boot
+6. Spring Boot
 
-Spring Security + JWT
+7. Spring Security + JWT
 
-Hibernate
+8. Hibernate
 
 MySQL
 
 🔑 API Documentation
+
 👨‍🎓 Student APIs
 
-Register Student
+1. Register Student: POST /student/save
 
-POST /student/save
+2. Login Student (JWT Token): POST /student/login
 
-Login Student (JWT Token)
+3. Get All Students: GET /student/getallstudents
 
-POST /student/login
+4. Update Profile: POST /student/updateProfile/{id}
 
-Get All Students
+5. Update Password: POST /student/updatePassword
 
-GET /student/getallstudents
-
-Update Profile
-
-POST /student/updateProfile/{id}
-
-Update Password
-
-POST /student/updatePassword
-
-Delete Student
-
-DELETE /student/deleteStudentById/{id}
+6. Delete Student: DELETE /student/deleteStudentById/{id}
 
 📘 Course APIs
 
-Add Course
+1. Add Course: POST /course/save
 
-POST /course/save
+2. Get All Courses: GET /course/getallcourses
 
-Get All Courses
+3. Search Course: GET /course/search/{name}
 
-GET /course/getallcourses
+4. Update Course: POST /course/update/{id}
 
-Search Course
+5. Delete Course: DELETE /course/deleteCourseById/{id}
 
-GET /course/search/{name}
-
-Update Course
-
-POST /course/update/{id}
-
-Delete Course
-
-DELETE /course/deleteCourseById/{id}
-
-Get Enrolled Courses
-
-GET /course/enrolled/{studentId}
+6. Get Enrolled Courses: GET /course/enrolled/{studentId}
 
 🙌 Contributing
 
