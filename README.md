@@ -1,4 +1,4 @@
-# Simple-Online-Course-Registration-System
+# Simple-Online-Course-Management-System
 📚 CPC Education – Admin & Student Portal
 
 A complete full-stack learning management system built with Spring Boot, JWT Authentication, React.js, and Tailwind CSS.
